@@ -7,14 +7,8 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
+  background-color:white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,3 +30,46 @@
     transform: rotate(360deg);
   }
 }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); body{     background-image: linear-gradient(#636162, #b1afaf);    height: 122vh;font-weight: bold;    letterspacing: 2px; 
+} *{     margin: 0px; padding: 0px; font-family: 'Montserrat', sans-serif; 
+} .main{     background-color: white;    height: auto;   width: 650px;   position: absolute; transform: 
+translate(-50%, -50%);   left: 50%;     top: 60%; 
+} 
+.left{ 
+    /* background-color:yellow; */     background: #134E5E;  /* fallback for old browsers */ background: -webkit-linear-gradient(to right, #71B280, #134E5E);  /* Chrome 10-25, Safari 5.1-6 */ background: linear-gradient(to right, #71B280, #134E5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, 
+Opera 12+, Safari 7+ */ 
+     width: 200px;   height: 120vh;  float: left; 
+} .right{     width: 450px;   float: left; 
+} 
+.profile-img{     height: 210px;  width: 210px;   background-color: #ddd; border-radius: 50%;     margin-bottom: 20px;     margin-left: 60px;     border: 10px solid  #1D2B64;     background: #1D2B64;  /* fallback for old browsers */ background: -webkit-linear-gradient(to right, #F8CDDA, #1D2B64);  /* Chrome 10-25, Safari 5.1-6 */ background: linear-gradient(to right, #F8CDDA, #1D2B64); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+    /* box-shadow: 6px 7px 9px 5px #fbb03b73; */ 
+} 
+.profile-img img{     width: 200px;    height: 200px; border-radius: 50%; 
+} .box-1{     position: relative; 
+} .heading{     background-color: #4d4d4d;  padding: 10px;  color: #fbb03b; text-align: left;   padding-left: 20px; margin-right: -15px; 
+} 
+.heading::after{     content: '';    position: absolute; width: 21px;    height: 18px;   background-color: #5a5959;  left: 
+191px;     top: 26px;     transform:rotate(56deg); 
+   z-index: -1; 
+} .p1{     padding: 9px 10px;  font-size: 11px; 
+} .icons1{     font-size: 16px!important;  padding-right: 10px!important;  vertical-align: sub; } 
+.skill-container{     width: 90%; background-color: #4d4d4d;  margin: 0px 10px; 
+} .skill{     text-align: right;  padding-top: 2px;   padding-bottom: 2px;    color: white; 
+} .html{     width: 90%; background-color: white; 
+} .css{     width: 80%; background-color: white; 
+} .js{     width: 85%; background-color: white; 
+} .React{     width: 70%; background-color: white; 
+} .Nodejs {     width: 70%; background-color: white; 
+} 
+.SpringBoot{     width: 70%; background-color: white; 
+} .java{     width: 70%; background-color: white; 
+} .web{     width: 70%; background-color: white; 
+} .icons2{     padding: 18px 10px; 
+} 
+.name-div{     padding: 86px 0px 60px 55px;    text-align: center; letter-spacing: 3px; } 
+.name-div h1{ 
+    margin-bottom: 10px; 
+} .box-2{     padding: 0px 50px;  margin-top: 30px; 
+} .p2{     font-size: 10px;font-weight: 300;letter-spacing: 1px;word-spacing: 2px;line-height: 18px;margin-top: 5px; } h2{     font-size: 16px;    margin-bottom: 15px; } .icons3{     vertical-align: bottom; font-size: 21px!important;  color: #4d4d4d; } .p3{     font-size: 13px;word-spacing: 1px;letter-spacing: 0px;margin-top: 10px; } 
+.p3 span{    color: #ff9b00; padding-left: 20px;} 
+ 
